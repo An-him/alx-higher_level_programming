@@ -18,6 +18,7 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
+int check_cycle_recursive(listint_t *current, listint_t *original);
 listint_t *add_nodeint(listint_t **head, const int n);
 void free_listint(listint_t *head);
 int check_cycle(listint_t *list);
