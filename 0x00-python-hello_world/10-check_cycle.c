@@ -2,7 +2,7 @@
 /**
 *check_cycle_recursive - checks if list is cycled
 *@current: points to list
-*@original: original head
+*@head: head
 *Return: int
 **/
 int check_cycle_recursive(listint_t *current, listint_t *head)
