@@ -5,18 +5,17 @@
 *@original: original head
 *Return: int
 **/
-
-int check_cycle_recursive(listint_t *current, listint_t *original)
+int check_cycle_recursive(listint_t *current, listint_t *head)
 {
 if (current == NULL)
 {
 return (0);
 }
-if (current == original)
+if (current == head)
 {
 return (1);
 }
-return (check_cycle_recursive(current->next, original));
+return (check_cycle_recursive(current->next, head));
 }
 /**
 *check_cycle - checks if list is cycled
