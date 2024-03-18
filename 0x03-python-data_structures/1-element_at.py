@@ -2,6 +2,6 @@
 
 def element_at(my_list, idx):
     if idx in my_list:
-            return idx
+        return idx
     else:
         return None
