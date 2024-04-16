@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import json
 """Writes Json representation to a file"""
 
