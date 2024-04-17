@@ -7,7 +7,21 @@
 ##### https://intranet.alxswe.com/rltoken/ZvtAdnUzjnEVu1sjg3m_tQ
 ##### https://intranet.alxswe.com/rltoken/Ej8YjhxLXpzHW7_rNMd9XQ
 ##### https://intranet.alxswe.com/rltoken/TUatlpPV27S4zPogmQIPnQ
-###### How to open a file
 
+
+##### How to open a file
 ###### Using the "with" keyword with open(filename,mode,encoding) as f:
 ###### The with keyword guards the operation even when failure occurs program exits gracefully
+###### Modes such as r-read, w-write, a-append some of which if file is missing create it
+
+##### What is JSON?
+
+###### This refers to JavaScript Object Notation
+######  Just a fancy way of saying a file type contains data on understood by web pages and systems
+
+##### What is serialization?
+###### Serialization is the conversion of Python data hierachies to string representations
+
+##### What is deserialization?
+###### Deserialization is the changing of normal strings to Python Data Structures
+
