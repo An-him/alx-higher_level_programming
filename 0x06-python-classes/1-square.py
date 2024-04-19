@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+""" this module defines a class Square"""
+
+
 class Square:
-    """Module defines a Class called Square"""
-    def __init__(self,size):
-        """this method defines size the size of the square"""
-        pass
+    """this method defines size the size of the square"""
+    def __init__(self, size):
+        self.size = size
