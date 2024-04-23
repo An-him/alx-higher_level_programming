@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+"""defines square working with getters and setters"""
+
+
+class Square:
+    """square with private attributes"""
+    def __init__(self,size=0):
+        self.size = size
+        if not isinstance(size, int):
+            raise TypeError("size must be an integer")
+        if size < 0:
+            raise ValueError("size must be >= 0")
+
+
+    def size(self, size):
+        self.size = size
+    def size(self):
+        return self.size
+
+    def area(self):
+        return self.size * self.size
