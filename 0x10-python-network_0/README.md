@@ -4,9 +4,9 @@
 
 | Concepts  | Findings  |
 | ------------- 	| ------------- |
-| What is a URL 	| Content Cell  |
-| What is HTTP? 	| Content Cell  |
-| How to read a URL		|
+| What is a URL 	|   		|
+| What is HTTP? 	| 		|
+| How to read a URL			|
 | The scheme for a HTTP URL |
 | What a domain name is		|
 | What a sub-domain is
@@ -20,6 +20,6 @@
 | What an HTTP response status code is	|
 | What an HTTP Cookie is	|
 | How to make a request with cURL	|
-| What happens when you type	|
-| google.com in your browser (Application level)
+| What happens when you type
+| google.com in your browser (Application level) |
 
