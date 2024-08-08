@@ -1,0 +1,3 @@
+#!/usr/bin/node
+// Empty class
+module.export = class rectangle {};
